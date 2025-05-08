@@ -1,0 +1,302 @@
+/* =============================================
+        extra small device srart
+=============================================== */
+@media (max-width: 575.98px) {
+  /* ===============================================
+      Nav part strat
+  ================================================= */
+
+  .navbar-toggler {
+    color: transparent !important;
+  }
+  .bannar .menu-icon {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  .nav-elm-responsive {
+    text-align: start;
+    margin-top: 17px;
+  }
+  .nav-elm-responsive .navbar-nav {
+    gap: 9px;
+    /* align-items: center; */
+    margin-left: 102px !important;
+  }
+  .responsive-common-btn {
+    padding: 3px 25px;
+    margin-left: 69px !important;
+    margin-top: 15px !important;
+  }
+
+  /* ===============================================
+      Nav part end
+  ================================================= */
+  /* ===============================================
+      Bannar part strat
+  ================================================= */
+  #bannar {
+    padding: 78px 0;
+  }
+  #bannar .bannar-responsive-h-one-heading {
+    font-size: 34px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 44px;
+  }
+  #bannar .bannar-responsive-pragraph {
+    color: #ffffff !important;
+    padding-top: 26px !important;
+    padding-bottom: 30px !important;
+    width: 321px !important;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .responsive-bannar-btn .responsive-bannar-main-btn {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 11px;
+    padding: 11px 20px;
+    border: 1px solid #f4f6fc;
+    border-radius: 41px;
+    transition: all linear 0.2s;
+  }
+  .responsive-bannar-btn .responsive-bannar-button-two {
+    font-size: 13px !important;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+  }
+  #bannar .responsive-btn-arrow {
+    position: absolute;
+    top: 8px;
+    right: -18px !important;
+    opacity: 0;
+    transition: all linear 0.3s;
+  }
+  #bannar .resopnsive-bannar-button-two:hover .responsive-btn-arrow {
+    opacity: 1;
+    right: -25px !important;
+  }
+  #bannar .responsive-bannar-img {
+    width: 100%;
+    margin-left: -1px;
+    margin-top: 59px;
+  }
+}
+
+/* ===============================================
+      Bannar part end
+  ================================================= */
+/* ===============================================
+      work part strat
+  ================================================= */
+.responsive-work-left {
+  margin: 0px 40px;
+}
+.responsive-work-left-heading {
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 35px;
+  width: fit-content;
+}
+.responsive-work-left-paragraph {
+  width: 245px !important;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+#work {
+  padding: 86px 0px 0px;
+}
+
+.responsive-work-btn {
+  font-size: 16px;
+  line-height: 18px;
+}
+.work-btn {
+  padding-left: 17px;
+}
+.work-btn .work-btn-arrow {
+  position: absolute;
+  top: 2px;
+  right: -24px;
+  opacity: 0;
+  transition: all linear 0.2s;
+  font-size: 13px;
+}
+.responsive-work-right {
+  padding-top: 95px;
+  text-align: center;
+}
+
+.work-right-elm img {
+  width: 29%;
+}
+.work-right-elm {
+  margin-bottom: 33px;
+}
+
+/* 
+.responsive-work-left-heading {
+  font-size: 29px;
+  font-weight: 600;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 18px;
+}
+#work .responsive-work-left-paragraph {
+  color: #282938;
+  width: 200px !important;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.responsive-work-btn {
+  font-size: 12px;
+  font-weight: 500;
+  color: #2405f2;
+  font-family: "Poppins", sans-serif;
+  line-height: 17px;
+  position: relative;
+  margin-left: 19px;
+}
+.responsive-work-btn .responsive-work-btn-arrow {
+  position: absolute;
+  top: 3px;
+  right: -15px !important;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+.responsive-work-btn:hover .work-btn-arrow {
+  opacity: 1;
+  right: -25px !important;
+}
+.responsive-work-left {
+  margin-left: 74px;
+}
+.responsive-work-right {
+  margin-left: 36px !important;
+  margin-top: 75px !important;
+}
+.responsive-work-right-elm img {
+  width: 13%;
+}
+.responsive-work-right-heding {
+  font-size: 33px !important;
+  padding-top: 9px !important;
+  padding-bottom: 9px !important;
+}
+.responsive-work-right-pragraph {
+  line-height: 21px !important;
+  font-size: 12px !important;
+  width: 300px !important;
+  margin-bottom: 19px;
+} */
+
+/* ===============================================
+      work part end
+  ================================================= */
+/* ===============================================
+      Project part strat
+  ================================================= */
+.responsive-project-heading {
+  font-size: 15px;
+}
+.responsive-project-btn {
+  font-size: 12px;
+  margin-left: 0px;
+}
+.responsive-project-row-one-elm {
+  justify-content: start;
+  gap: 35px;
+}
+.responsive-porject-icon {
+  top: 3.5px;
+  right: -14px;
+  opacity: 0;
+}
+.responsive-project-btn:hover .responsive-porject-icon {
+  opacity: 1;
+  right: -23px !important;
+}
+/* ===============================================
+      Project part end
+  ================================================= */
+/* ===============================================
+      Nav part strat
+  ================================================= */
+/* ===============================================
+      Nav part end
+  ================================================= */
+
+/* =============================================
+        extra small device end
+=============================================== */
+/* =============================================
+         small device start
+=============================================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannar {
+    background: #56df;
+  }
+}
+
+/* =============================================
+         small device end
+=============================================== */
+/* =============================================
+         md device start
+=============================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+/* =============================================
+         md device end
+=============================================== */
+/* =============================================
+            large device start
+=============================================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
+}
+/* =============================================
+            large device end
+=============================================== */
+/* =============================================
+        extra large device start
+=============================================== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
+  .responsive-work-left p {
+    width: 405px !important;
+  }
+}
+/* =============================================
+  extra large device end
+=============================================== */
+/* =============================================
+     extra extra large device start
+=============================================== */
+@media (min-width: 1400px) {
+  .responsive-work-left-heading {
+    font-size: 54px;
+    font-weight: ;
+    line-height: ;
+    width: ;
+  }
+}
+/* =============================================
+         extra extra large device start
+=============================================== */

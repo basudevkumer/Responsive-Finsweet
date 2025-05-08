@@ -1,0 +1,789 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ======================================================================
+                   Common Css Part Start
+======================================================================= */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+.common-btn {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+  padding: 16px 48px;
+  border: 1px solid #f4f6fc;
+  border-radius: 41px;
+  transition: all linear 0.2s;
+}
+.common-btn:hover {
+  background-color: #fcd980;
+  border-color: #fcd980;
+  color: #000000;
+}
+.common-pragraph {
+  font-size: 16px;
+  font-weight: 400;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+.common-h-one-heading {
+  font-size: 54px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  line-height: 74px;
+}
+.common-h-two-heading {
+  font-size: 48px;
+  font-weight: 600;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 64px;
+}
+
+.common-h-three-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 36px;
+}
+.common-h-four-heading-one {
+  font-size: 32px;
+  font-weight: 500;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 48px;
+}
+.common-h-four-heading {
+  font-size: 38px;
+  font-weight: 600;
+  color: darkblue;
+  font-family: "Poppins", sans-serif;
+  line-height: 56px;
+}
+/* ======================================================================
+                   Common Css Part Start
+======================================================================= */
+/* ======================================================================
+                  Navbar Part Start
+======================================================================= */
+.bannar {
+  background-color: #1c1e53;
+}
+nav {
+  padding: 16px 0 !important;
+}
+.navbar-nav {
+  gap: 32px;
+}
+nav .nav-link {
+  color: #bbbbcb !important;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+
+  padding: 0px !important;
+  transition: all linear 0.2s;
+}
+nav .nav-link:hover {
+  color: #ffffff !important;
+}
+nav .nav-btn {
+  margin-left: 48px;
+}
+/* ======================================================================
+                  Navbar Part end
+======================================================================= */
+/* ======================================================================
+                  Bannar Part start
+======================================================================= */
+#bannar {
+  background: #1c1e53;
+  padding: 127px 0px;
+}
+#bannar .main-pragrapg {
+  color: #ffffff !important;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  width: 562px;
+}
+#bannar .bannar-main-btn {
+  background: #fcd980;
+  color: #000000;
+  border: 1px solid #fcd980;
+}
+#bannar .bannar-main-btn:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  background: transparent;
+}
+#bannar .bannar-button-two {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+#bannar .bannar-button-two {
+  padding-left: 40px;
+  position: relative;
+}
+#bannar .btn-arrow {
+  position: absolute;
+  top: 8px;
+  right: -25px;
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+#bannar .bannar-button-two:hover .btn-arrow {
+  opacity: 1;
+  right: -33px;
+}
+#bannar .bannar-img {
+  width: 100%;
+  margin-left: 10px;
+}
+
+/* ======================================================================
+                  Bannar Part end
+======================================================================= */
+/* ======================================================================
+                  work Part strat
+======================================================================= */
+#work .work-left-heading {
+  color: #282938;
+}
+#work {
+  padding: 128px 0;
+  background: #f4f6fc;
+}
+#work .work-left-paragraph {
+  color: #282938;
+  width: 405px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.work-btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405f2;
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+  position: relative;
+}
+.work-btn .work-btn-arrow {
+  position: absolute;
+  top: 8px;
+  right: -29px;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+.work-right {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 25px;
+}
+.work-right-elm {
+  width: 328px;
+  display: inline-block;
+}
+
+.work-btn:hover .work-btn-arrow {
+  opacity: 1;
+  right: -35px;
+}
+#work .work-right-heding {
+  color: #282938;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+#work .work-right-pragraph {
+  width: 303px;
+}
+
+/* ======================================================================
+                  work Part end
+======================================================================= */
+/* ======================================================================
+                  project Part start
+======================================================================= */
+#project {
+  padding: 128px 0;
+}
+.project-btn {
+  display: inline-block !important;
+}
+/* .project-row-one {
+} */
+.project-row-one-elm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.project-heading {
+  color: #282938;
+}
+.project-btn {
+  position: relative;
+  color: #282938;
+}
+.porject-icon {
+  position: absolute;
+  top: 7px;
+  right: -28px;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+.project-row-two {
+  padding-top: 64px;
+}
+.project-btn:hover .porject-icon {
+  opacity: 1;
+  right: -35px;
+}
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+.overlay-display {
+  position: absolute;
+  top: 0;
+  left: -48%;
+  width: 48%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(28, 30, 83, 0.422),
+    #1c1e53
+  );
+  transition: all linear 0.4s;
+}
+.overlay:hover .overlay-display {
+  left: 0;
+}
+.overlay-text {
+  padding-top: 312px;
+  padding-left: 48px;
+}
+.overlay-heading {
+  color: #ffffff;
+  width: 313px;
+}
+.overlay-pragraph {
+  color: #ffffff;
+  width: 293px;
+  margin: 0;
+  padding: 16px 0 43px;
+}
+.overlay-btn {
+  color: #fcd980;
+  font-size: 16px;
+}
+/* .web-design {
+} */
+.overlay-btn:hover {
+  color: #fcd980;
+}
+.web-design-one {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.web-design-overlay-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-image: linear-gradient(rgba(28, 30, 83, 0.422), rgb(28, 30, 83));
+  transition: all linear 0.4s;
+  opacity: 0;
+}
+.web-design-one:hover .web-design-overlay-one {
+  height: 100%;
+  opacity: 1;
+}
+.web-design-overlay-one .wed-overlay-elm {
+  padding: 129px 46px 83px;
+}
+.web-design-two {
+  position: relative;
+  overflow: hidden;
+}
+.web-design-overlay-two {
+  position: absolute;
+  left: 0%;
+  bottom: -100%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(28, 30, 83, 0.422), rgb(28, 30, 83));
+  transition: all linear 0.4s;
+}
+.web-design-two:hover .web-design-overlay-two {
+  bottom: 0%;
+}
+.web-design-overlay-two .wed-overlay-elm-two {
+  padding-top: 134px;
+  padding-left: 51px;
+}
+/* ======================================================================
+                  project Part end
+======================================================================= */
+/* ======================================================================
+                  Feature Part start
+======================================================================= */
+#feature {
+  background-color: #f4f6fc;
+  padding-bottom: 128px;
+}
+#feature .feature-child-card-elm {
+  padding: 58px 48px 48px;
+  background-color: #ffffff;
+}
+#feature .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 129px 0 48px;
+}
+#feature .feature-pragraph-one {
+  color: #282938;
+  width: 419px;
+}
+#feature .feature-heading-one {
+  color: #282938 !important;
+  width: 630px;
+}
+#feature .feature-card-heading {
+  color: #282938;
+  padding: 22px 0 8px;
+}
+#feature .feature-img {
+  width: fit-content;
+}
+#feature .feature-card-pragraph {
+  color: #282938;
+  width: 324px;
+}
+#feature .feature-card {
+  display: flex;
+
+  column-gap: 32px;
+}
+#feature .row .feature-card:nth-child(2) {
+  margin-top: 24px;
+}
+/* .feature-card-two {
+} */
+
+/* ======================================================================
+                  Feature Part end
+======================================================================= */
+/* ======================================================================
+                  Client Part start
+======================================================================= */
+#client {
+  padding: 129px 0;
+}
+.client-heading-one {
+  width: 327px;
+  color: #282938;
+}
+#client .client-pragraph {
+  width: 327px;
+  color: #282938;
+}
+#client .client-heading-two {
+  width: 843px;
+  color: #282938;
+}
+#client .client-detais {
+  display: flex;
+  column-gap: 14px;
+  margin-top: 48px;
+}
+#client .client-detais img {
+  width: 7%;
+}
+#client .client-info-heading-one {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+}
+#client .client-info-heading-two {
+  font-size: 12px;
+  font-weight: 500;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+}
+/* ======================================================================
+                  Client Part end
+======================================================================= */
+/* ======================================================================
+                  FAQ Part start
+======================================================================= */
+#faq {
+  padding: 133px 0;
+}
+#faq .accordion-item {
+  border: 0px;
+  border-bottom: 1px solid #ececf1;
+}
+#faq .accordion-item:first-of-type .accordion-button {
+  border-radius: 0px;
+  border: 0px;
+}
+#faq .accordion-item span {
+  padding-right: 54px;
+  color: #2405f2;
+}
+#faq .accordion-item .accordion-body {
+  padding-left: 98px;
+  /* padding-bottom: 46px; */
+}
+/* #faq .accordion-item .accordion-button::after img {
+} */
+#faq .accordion-item .accordion-button::after {
+  /* background: none !important; */
+  background-image: url(/Image/++.png);
+}
+#faq .accordion-item .accordion-button:not(.collapsed)::after {
+  background-image: url(/Image/+.png);
+}
+#faq .accordion-item .accordion-header .accordion-button {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+}
+#faq .accordion-body {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+}
+.accordion-header {
+  margin: 25px 0;
+}
+.faq-heading {
+  margin-top: 0;
+}
+/* ======================================================================
+                   FAQ Part end
+======================================================================= */
+/* ======================================================================
+                  Building Part start
+======================================================================= */
+#building {
+  padding-bottom: 74px;
+}
+#building .bulding-overlay-elm img {
+  width: 100%;
+  height: 100%;
+}
+#building .row {
+  --bs-gutter-x: 0px;
+}
+#building .bulding-overlay-elm {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+#building .bulding-overlay-elm .bulding-overlay {
+  position: absolute;
+  top: 0px;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+  background: rgba(28, 30, 83, 0.5);
+  transition: all linear 0.4s;
+}
+#building .bulding-overlay-elm:hover .bulding-overlay {
+  right: 0;
+}
+#building .building-overlay-heading {
+  color: #ffffff;
+  font-weight: 600;
+  width: 464px;
+}
+#building .bulding-overlay-pragraph {
+  font-weight: 500;
+  color: #ffffff;
+  width: 464px;
+  padding-top: 24px;
+}
+#building .bulding-overlay {
+  padding: 96px 96px 0px;
+}
+#building .inquiry {
+  padding: 96px 96px 48px;
+  width: 100%;
+
+  background: #1c1e53;
+}
+#building .inquiry-heading {
+  color: #ffffff;
+  width: 432px;
+}
+#building .inquiry-pragraph {
+  color: #f4f6fc;
+  width: 389px;
+  padding-top: 10px;
+}
+#building .inquiry-form {
+  padding: 48px 0 34px;
+}
+#building .inquiry-email {
+  padding: 16px 0;
+}
+#building input {
+  background: transparent;
+  color: #f4f6fc;
+}
+.inuser,
+.inemail,
+.inname {
+  padding: 23px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.inname::placeholder {
+  color: #f4f6fc;
+}
+.inemail::placeholder {
+  color: #f4f6fc;
+}
+.inuser::placeholder {
+  color: #f4f6fc;
+}
+.inquiry-btn {
+  padding: 16px 150px;
+  margin: 33px 0px;
+  background: #fcd980;
+  border-color: #fcd980;
+  color: #282938;
+  transition: all linear 0.3s;
+}
+.inquiry-btn:hover {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.inquiry-btn-two {
+  color: rgba(255, 255, 255, 0.863);
+  margin-left: 106px;
+}
+.inquiry-btn-two:hover {
+  color: #ffffff;
+}
+/* ======================================================================
+                  Building Part end
+======================================================================= */
+/* ======================================================================
+                  Blog Part start
+======================================================================= */
+#blog {
+  padding: 85px 0 168px;
+}
+#blog .blog-heading {
+  color: #282938;
+  padding-bottom: 64px;
+}
+#blog .col-lg-4 {
+  padding: 0 16px;
+}
+/* #blog .col-lg-4:nth-child(2){
+  margin:0px 32px;
+} */
+/* #blog .col-lg-4:nth-child(3){
+  padding-right: 0px;
+  
+} */
+#blog .card-img-top:nth-child(2) {
+  width: 102% !important;
+}
+
+#blog .card-text {
+  color: #282938;
+  width: 405px;
+}
+#blog .card-title {
+  color: #282938;
+}
+#blog .card {
+  border: none;
+}
+#blog .card-pragarph {
+  padding-bottom: 16px;
+}
+#blog .card-btn {
+  color: #282938;
+}
+/* #blog .row {
+} */
+#blog .card-body {
+  padding: 0px;
+  margin-top: 40px;
+}
+/* #blog .col-lg-4:nth-child(2){
+  margin: 0px 32px;
+} */
+
+/* ======================================================================
+                  Blog Part end
+======================================================================= */
+/* ======================================================================
+                  Footer Part start
+======================================================================= */
+#footer {
+  padding-top: 96px;
+  padding-bottom: 95px;
+  background: #1c1e53;
+}
+#footer .footer-pragraph {
+  color: #ffffff;
+  width: 399px;
+  padding-top: 22px;
+}
+#footer .box {
+  background: #fcd980;
+  display: flex;
+  padding: 18px 37px 18px;
+  column-gap: 32px;
+}
+#footer .row-max {
+  position: relative;
+}
+#footer .box {
+  position: absolute;
+  left: 0;
+  top: 138.5%;
+  transform: translateY(-100%);
+}
+#footer .box .div-box-one .footer-heading-box-one {
+  padding-bottom: 4px;
+  color: #282938;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+}
+#footer .box .div-box-two .footer-heading-box-two {
+  padding-bottom: 4px;
+  color: #282938;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 32px;
+}
+#footer .box .div-box-two .footer-contact-box-two {
+  color: #282938;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+#footer .box .div-box-one .footer-contact-box-one {
+  color: #282938;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+#footer .footer-right-heading {
+  color: #ffffff;
+}
+#footer .footer-right-pragraph {
+  color: #f4f6fcde;
+  width: 399px;
+  padding-top: 14px;
+  padding-bottom: 28px;
+}
+#footer .footer-icon {
+  display: flex;
+  gap: 27px;
+}
+#footer .footer-icon li {
+  color: #ffffffd6;
+}
+
+/* ======================================================================
+                  Footer Part end
+======================================================================= */
+/* ======================================================================
+                  Footer-2 Part start
+======================================================================= */
+#footer-two {
+  padding: 27px 0;
+}
+#footer-two .footer-elm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+#footer-two .footer-nav-elm {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding-left: 0;
+  gap: 32px;
+}
+#footer-two .footer-nav-elm li a {
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500px;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+#footer-two .footer-two-pragarph {
+  margin: 0px;
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500px;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+/* ======================================================================
+                 Footer-2 Part end
+======================================================================= */
+/* ======================================================================
+                  project Part start
+======================================================================= */
+/* ======================================================================
+                  project Part end
+======================================================================= */
