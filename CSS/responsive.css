@@ -1,302 +1,455 @@
-/* =============================================
-        extra small device srart
-=============================================== */
-@media (max-width: 575.98px) {
-  /* ===============================================
-      Nav part strat
-  ================================================= */
-
-  .navbar-toggler {
-    color: transparent !important;
-  }
-  .bannar .menu-icon {
-    color: #ffffff;
-    font-size: 24px;
-  }
+/* ==================================================================================
+            Extra small device resopnsive 
+================================================================================== */
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* ==================================================================================
+              Navbar responsive part start 
+================================================================================== */
   .nav-elm-responsive {
-    text-align: start;
-    margin-top: 17px;
+    background-color: rgba(141, 61, 36, 0.879);
+    text-align: center;
+    border-radius: 12.5px;
+    margin-top: 50px;
   }
-  .nav-elm-responsive .navbar-nav {
-    gap: 9px;
-    /* align-items: center; */
-    margin-left: 102px !important;
-  }
-  .responsive-common-btn {
-    padding: 3px 25px;
-    margin-left: 69px !important;
-    margin-top: 15px !important;
+  .navbar-nav {
+    gap: 18px;
+    padding-top: 28px;
   }
 
-  /* ===============================================
-      Nav part end
-  ================================================= */
-  /* ===============================================
-      Bannar part strat
-  ================================================= */
-  #bannar {
-    padding: 78px 0;
+  nav .nav-btn {
+    margin-left: 0px;
+    padding: 7px 25px;
+    margin-top: 18px;
+    margin-bottom: 28px;
   }
-  #bannar .bannar-responsive-h-one-heading {
-    font-size: 34px;
-    font-weight: 500;
+  nav .nav-btn:hover {
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    line-height: 44px;
+    background: transparent;
+    border-color: #ffffff;
   }
-  #bannar .bannar-responsive-pragraph {
+  .navbar-toggler {
     color: #ffffff !important;
-    padding-top: 26px !important;
-    padding-bottom: 30px !important;
-    width: 321px !important;
+    font-size: 29.5px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  /* ==================================================================================
+              Bannar responsive part End 
+================================================================================== */
+  .bannar-responsive-h-one-heading {
+    font-size: 31px;
+    line-height: 43px;
+    width: auto;
+  }
+  #bannar .main-pragrapg {
+    font: 16px;
+    line-height: 25px;
+    width: auto;
+  }
+  .responsive-bannar-main-btn {
+    padding: 7px 22px;
+  }
+  .responsive-bannar-main-btn:hover {
+    background: #fcd980 !important;
+    color: #000000 !important;
+    border-color: #fcd980 !important;
+  }
+  .responsive-bannar-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .responsive-bannar-img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 80px;
+  }
+
+  /* ==================================================================================
+              Bannar responsive part start 
+================================================================================== */
+
+  /* ==================================================================================
+              Work responsive part Start 
+================================================================================== */
+  .responsive-work-left-heading {
+    font-size: 32px;
+    line-height: 30px;
+    width: auto;
+  }
+  .responsive-work-left-paragraph {
+    width: auto !important;
+    line-height: 20px;
+    font-size: 14.5px;
+  }
+  .responsive-work-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .responsive-work-btn-arrow {
+    opacity: 0;
+  }
+  .work-right {
+    text-align: center;
+    justify-content: center;
+    margin: 130px 0 0;
+  }
+  .work-right-elm {
+    /* text-align: center;
+    margin: 0 auto; */
+  }
+  .work-right-elm .work-right-pragraph {
+    width: auto !important;
+  }
+
+  .work-right-elm img {
+    width: 19%;
+  }
+  .responsive-work-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  /* ==================================================================================
+              Work responsive part end 
+================================================================================== */
+  /* ==================================================================================
+            Project responsive part start 
+================================================================================== */
+  .project-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .project-btn:hover .porject-icon {
+    opacity: 0;
+  }
+  .overlay img {
+    width: 100%;
+  }
+  .web-design img {
+    width: 100%;
+  }
+  .overlay {
+    position: relative;
+  }
+  .overlay-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-heading {
+    width: auto;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .overlay-text {
+    padding-top: 43px;
+    padding-left: 22px;
+  }
+  .overlay-pragraph {
+    width: auto;
+    padding: 9px 0 8px;
     font-size: 13px;
     line-height: 22px;
   }
-  .responsive-bannar-btn .responsive-bannar-main-btn {
-    font-size: 12px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    line-height: 11px;
-    padding: 11px 20px;
-    border: 1px solid #f4f6fc;
-    border-radius: 41px;
-    transition: all linear 0.2s;
-  }
-  .responsive-bannar-btn .responsive-bannar-button-two {
-    font-size: 13px !important;
-    font-weight: 400;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    line-height: 28px;
-  }
-  #bannar .responsive-btn-arrow {
-    position: absolute;
-    top: 8px;
-    right: -18px !important;
-    opacity: 0;
-    transition: all linear 0.3s;
-  }
-  #bannar .resopnsive-bannar-button-two:hover .responsive-btn-arrow {
+  .web-design-overlay-one {
+    height: 100%;
     opacity: 1;
-    right: -25px !important;
   }
-  #bannar .responsive-bannar-img {
+  .web-design-two {
+    position: relative;
+  }
+  .web-design-overlay-two {
+    bottom: 0%;
+  }
+  .web-design-one {
+    margin-top: 32px;
+  }
+  .web-design-overlay-one .wed-overlay-elm {
+    padding: 102px 22px 0px;
+  }
+  .web-design-overlay-two .wed-overlay-elm-two {
+    padding-top: 104px;
+    padding-left: 22px;
+  }
+  #project {
+    padding: 128px 0 85px;
+  }
+  .overlay-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  /*=================================================================================
+              Project responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Feature responsive part start 
+================================================================================== */
+
+  .feature-heading-one {
+    width: auto !important;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .feature-card {
+    text-align: center;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  .feature-child-card-elm .feature-img {
+    width: 24% !important;
+  }
+  .feature-card-heading {
+    text-align: start;
+  }
+  #feature .feature-card-pragraph {
+    width: auto;
+    text-align: start;
+  }
+  #feature {
+    padding-bottom: 60px;
+  }
+  /* ==================================================================================
+              Feature responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            client responsive part start 
+================================================================================== */
+  .client-heading-one {
+    width: auto;
+    font-size: 19px !important;
+    line-height: 30px;
+  }
+  #client .client-pragraph {
+    width: auto;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+  .client-heading-two {
+    width: auto !important;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 25px;
+  }
+  .client-detais {
+    display: flex;
+    justify-content: center;
+  }
+  #client .client-detais img {
+    width: 19%;
+  }
+
+  /* ==================================================================================
+              client responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            FAQ responsive part start 
+================================================================================== */
+  .client-heading-one {
+    font-size: 21px;
+  }
+
+  .faq-btn {
+    padding: 4px 0px 100px;
+  }
+  .faq-btn:hover .faq-btn-arrow {
+    opacity: 0;
+  }
+  #faq .accordion-item {
+  }
+
+  #faq .accordion-item span {
+    padding-right: 18px;
+    color: #2405f2;
+  }
+  .accordion-button {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  .accordion-button {
+    display: flex;
+    align-items: start;
+  }
+  #faq .accordion-item .accordion-body {
+    padding-left: 53px;
+    /* padding-bottom: 46px; */
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  /*=================================================================================
+              FAQ responsive part End 
+================================================================================== */
+  /* ==================================================================================
+             Building responsive part start 
+================================================================================== */
+
+  .building-img {
+    width: 100% !important;
+    height: 100%;
+  }
+  #building .bulding-overlay-elm {
+    position: relative;
+
+    height: 100%;
+  }
+  #building .bulding-overlay-elm .bulding-overlay {
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    height: 100%;
     width: 100%;
-    margin-left: -1px;
-    margin-top: 59px;
+    background: rgba(28, 30, 83, 0.5);
+    transition: all linear 0.4s;
   }
-}
-
-/* ===============================================
-      Bannar part end
-  ================================================= */
-/* ===============================================
-      work part strat
-  ================================================= */
-.responsive-work-left {
-  margin: 0px 40px;
-}
-.responsive-work-left-heading {
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 35px;
-  width: fit-content;
-}
-.responsive-work-left-paragraph {
-  width: 245px !important;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-#work {
-  padding: 86px 0px 0px;
-}
-
-.responsive-work-btn {
-  font-size: 16px;
-  line-height: 18px;
-}
-.work-btn {
-  padding-left: 17px;
-}
-.work-btn .work-btn-arrow {
-  position: absolute;
-  top: 2px;
-  right: -24px;
-  opacity: 0;
-  transition: all linear 0.2s;
-  font-size: 13px;
-}
-.responsive-work-right {
-  padding-top: 95px;
-  text-align: center;
-}
-
-.work-right-elm img {
-  width: 29%;
-}
-.work-right-elm {
-  margin-bottom: 33px;
-}
-
-/* 
-.responsive-work-left-heading {
-  font-size: 29px;
-  font-weight: 600;
-  color: darkblue;
-  font-family: "Poppins", sans-serif;
-  line-height: 18px;
-}
-#work .responsive-work-left-paragraph {
-  color: #282938;
-  width: 200px !important;
-  padding-top: 16px;
-  padding-bottom: 10px;
-  font-size: 13px;
-  line-height: 20px;
-}
-.responsive-work-btn {
-  font-size: 12px;
-  font-weight: 500;
-  color: #2405f2;
-  font-family: "Poppins", sans-serif;
-  line-height: 17px;
-  position: relative;
-  margin-left: 19px;
-}
-.responsive-work-btn .responsive-work-btn-arrow {
-  position: absolute;
-  top: 3px;
-  right: -15px !important;
-  opacity: 0;
-  transition: all linear 0.2s;
-}
-.responsive-work-btn:hover .work-btn-arrow {
-  opacity: 1;
-  right: -25px !important;
-}
-.responsive-work-left {
-  margin-left: 74px;
-}
-.responsive-work-right {
-  margin-left: 36px !important;
-  margin-top: 75px !important;
-}
-.responsive-work-right-elm img {
-  width: 13%;
-}
-.responsive-work-right-heding {
-  font-size: 33px !important;
-  padding-top: 9px !important;
-  padding-bottom: 9px !important;
-}
-.responsive-work-right-pragraph {
-  line-height: 21px !important;
-  font-size: 12px !important;
-  width: 300px !important;
-  margin-bottom: 19px;
-} */
-
-/* ===============================================
-      work part end
-  ================================================= */
-/* ===============================================
-      Project part strat
-  ================================================= */
-.responsive-project-heading {
-  font-size: 15px;
-}
-.responsive-project-btn {
-  font-size: 12px;
-  margin-left: 0px;
-}
-.responsive-project-row-one-elm {
-  justify-content: start;
-  gap: 35px;
-}
-.responsive-porject-icon {
-  top: 3.5px;
-  right: -14px;
-  opacity: 0;
-}
-.responsive-project-btn:hover .responsive-porject-icon {
-  opacity: 1;
-  right: -23px !important;
-}
-/* ===============================================
-      Project part end
-  ================================================= */
-/* ===============================================
-      Nav part strat
-  ================================================= */
-/* ===============================================
-      Nav part end
-  ================================================= */
-
-/* =============================================
-        extra small device end
-=============================================== */
-/* =============================================
-         small device start
-=============================================== */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .bannar {
-    background: #56df;
+  #building .bulding-overlay {
+    padding: 62px 29px 0px;
   }
+  #building .building-overlay-heading {
+    color: #ffffff;
+    font-weight: 600;
+    width: auto;
+    font-size: 31px;
+    line-height: 39px;
+  }
+  #building .bulding-overlay-pragraph {
+    width: auto;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  #building .inquiry {
+    padding: 87px 37px 48px;
+    width: auto;
+    background: #1c1e53;
+  }
+  #building .inquiry-heading {
+    width: auto;
+    font-size: 32px;
+  }
+  #building .inquiry-pragraph {
+    width: auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .inuser,
+  .inemail,
+  .inname {
+    padding: 11px;
+  }
+  .form-control {
+    font-size: 15px;
+  }
+  .in-btn {
+    text-align: center;
+  }
+  .inquiry-btn {
+    padding: 8px 26px;
+  }
+  .inquiry-btn-two {
+    margin-left: 14px;
+    display: block;
+    text-align: center;
+  }
+  .inquiry-btn-two:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  .inquiry-btn:hover {
+    color: #282938;
+    border-color: #fcd980;
+    background: #fcd980;
+  }
+  /* ==================================================================================
+               Building responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Blog responsive part start 
+================================================================================== */
+#blog .blog-heading {
+font-size: 39px;
+}
+#blog .card-text {
+
+	width:auto;
+  padding-top: 8px;
+}
+.card{
+  margin-bottom: 100px;
+}
+.card:nth-child(3){
+  margin-bottom: 0;
+}
+#blog {
+	padding: 85px 0 37px;
+} 
+#blog .card:hover .work-btn-arrow {
+    opacity: 0;
 }
 
-/* =============================================
-         small device end
-=============================================== */
-/* =============================================
-         md device start
-=============================================== */
-@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /* ==================================================================================
+              Blog responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Footer responsive part start 
+================================================================================== */
+#footer .footer-pragraph {
+	width: auto;
 }
-/* =============================================
-         md device end
-=============================================== */
-/* =============================================
-            large device start
-=============================================== */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .responsive-work-left-heading {
-    font-size: 54px;
-    font-weight: ;
-    line-height: ;
-    width: ;
-  }
+.footer-right-heading{
+  margin: 10px 0 0;
 }
-/* =============================================
-            large device end
-=============================================== */
-/* =============================================
-        extra large device start
-=============================================== */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .responsive-work-left-heading {
-    font-size: 54px;
-    font-weight: ;
-    line-height: ;
-    width: ;
-  }
-  .responsive-work-left p {
-    width: 405px !important;
-  }
+#footer .footer-right-pragraph {
+
+	width: 399px;
 }
-/* =============================================
-  extra large device end
-=============================================== */
-/* =============================================
-     extra extra large device start
-=============================================== */
-@media (min-width: 1400px) {
-  .responsive-work-left-heading {
-    font-size: 54px;
-    font-weight: ;
-    line-height: ;
-    width: ;
-  }
+#footer .box {
+	/* top: 149.5%; */
+  height:auto;
+
 }
-/* =============================================
-         extra extra large device start
-=============================================== */
+#footer .box .div-box-one .footer-heading-box-one {
+	font-size: 16px;
+	line-height: 32px;
+}
+#footer .box .div-box-one .footer-contact-box-one {
+
+	font-size: 13px;
+
+}
+#footer .box .div-box-two .footer-contact-box-two {
+	font-size:10px;
+
+	line-height: 0px;
+}
+#footer .box {
+
+	padding: 18px 28px 18px;
+
+}
+#footer-two {
+	padding: 103px 0 40px;
+}
+#footer-two .footer-elm {
+  display: block;
+}
+#footer-two .footer-nav-elm {
+
+	gap: 0px;
+}
+#footer-two .footer-nav-elm li a {
+
+	font-size: 12px;
+
+}
+/* ==================================================================================
+              Footer responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Navbar responsive part start 
+================================================================================== */
+
+  /* ==================================================================================
+              Navbar responsive part End 
+================================================================================== */
+}
