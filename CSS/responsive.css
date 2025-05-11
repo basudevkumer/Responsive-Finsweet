@@ -9,11 +9,19 @@
     background-color: rgba(141, 61, 36, 0.879);
     text-align: center;
     border-radius: 12.5px;
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+  .navbar-brand {
+    margin-bottom: 28px;
+  }
+  .navbar-toggler {
+    margin-bottom: 28px;
   }
   .navbar-nav {
-    gap: 18px;
-    padding-top: 28px;
+    row-gap: 18px;
+    display: block-inline;
+    padding-top: 25px;
+    margin-bottom: 0px !important;
   }
 
   nav .nav-btn {
@@ -38,6 +46,13 @@
   /* ==================================================================================
               Bannar responsive part End 
 ================================================================================== */
+  #bannar {
+    background: #1c1e53;
+    padding: 113px 0px;
+  }
+  .responsive-bannar-button-two:hover .responsive-btn-arrow {
+    opacity: 0 !important;
+  }
   .bannar-responsive-h-one-heading {
     font-size: 31px;
     line-height: 43px;
@@ -165,7 +180,8 @@
     bottom: 0%;
   }
   .web-design-one {
-    margin-top: 32px;
+    margin-top: 70px;
+    margin-bottom: 63px;
   }
   .web-design-overlay-one .wed-overlay-elm {
     padding: 102px 22px 0px;
@@ -198,7 +214,7 @@
     row-gap: 32px;
   }
   .feature-child-card-elm .feature-img {
-    width: 24% !important;
+    width: 18% !important;
   }
   .feature-card-heading {
     text-align: start;
@@ -365,27 +381,25 @@
   /* ==================================================================================
             Blog responsive part start 
 ================================================================================== */
-#blog .blog-heading {
-font-size: 39px;
-}
-#blog .card-text {
-
-	width:auto;
-  padding-top: 8px;
-}
-.card{
-  margin-bottom: 100px;
-}
-.card:nth-child(3){
-  margin-bottom: 0;
-}
-#blog {
-	padding: 85px 0 37px;
-} 
-#blog .card:hover .work-btn-arrow {
+  #blog .blog-heading {
+    font-size: 39px;
+  }
+  #blog .card-text {
+    width: auto;
+    padding-top: 8px;
+  }
+  .card {
+    margin-bottom: 100px;
+  }
+  .card:nth-child(3) {
+    margin-bottom: 0;
+  }
+  #blog {
+    padding: 85px 0 37px;
+  }
+  #blog .card:hover .work-btn-arrow {
     opacity: 0;
-}
-
+  }
 
   /* ==================================================================================
               Blog responsive part End 
@@ -393,63 +407,1045 @@ font-size: 39px;
   /* ==================================================================================
             Footer responsive part start 
 ================================================================================== */
-#footer .footer-pragraph {
-	width: auto;
-}
-.footer-right-heading{
-  margin: 10px 0 0;
-}
-#footer .footer-right-pragraph {
+  #footer .footer-pragraph {
+    width: auto;
+  }
+  .footer-right-heading {
+    margin: 10px 0 0;
+  }
+  #footer .footer-right-pragraph {
+    width: 399px;
+  }
+  #footer .box {
+    /* top: 149.5%; */
+    height: auto;
+  }
+  #footer .box .div-box-one .footer-heading-box-one {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  #footer .box .div-box-one .footer-contact-box-one {
+    font-size: 13px;
+  }
+  #footer .box .div-box-two .footer-contact-box-two {
+    font-size: 10px;
 
-	width: 399px;
-}
-#footer .box {
-	/* top: 149.5%; */
-  height:auto;
-
-}
-#footer .box .div-box-one .footer-heading-box-one {
-	font-size: 16px;
-	line-height: 32px;
-}
-#footer .box .div-box-one .footer-contact-box-one {
-
-	font-size: 13px;
-
-}
-#footer .box .div-box-two .footer-contact-box-two {
-	font-size:10px;
-
-	line-height: 0px;
-}
-#footer .box {
-
-	padding: 18px 28px 18px;
-
-}
-#footer-two {
-	padding: 103px 0 40px;
-}
-#footer-two .footer-elm {
-  display: block;
-}
-#footer-two .footer-nav-elm {
-
-	gap: 0px;
-}
-#footer-two .footer-nav-elm li a {
-
-	font-size: 12px;
-
-}
-/* ==================================================================================
+    line-height: 0px;
+  }
+  #footer .box {
+    padding: 18px 28px 18px;
+  }
+  #footer-two {
+    padding: 103px 0 40px;
+  }
+  #footer-two .footer-elm {
+    display: block;
+  }
+  #footer-two .footer-nav-elm {
+    gap: 0px;
+  }
+  #footer-two .footer-nav-elm li a {
+    font-size: 12px;
+  }
+  #footer-two .footer-nav-elm {
+    justify-content: space-around;
+  }
+  #footer-two .footer-two-pragarph {
+    text-align: center;
+    padding-bottom: 9px;
+  }
+  /* ==================================================================================
               Footer responsive part End 
 ================================================================================== */
+}
+/* ==================================================================================
+           small device resopnsive start
+================================================================================== */
+@media (min-width: 576px) and (max-width: 767.99px) {
   /* ==================================================================================
-            Navbar responsive part start 
+              Navbar responsive part start 
+================================================================================== */
+  .nav-elm-responsive {
+    background-color: rgba(141, 61, 36, 0.879);
+    text-align: center;
+    border-radius: 12.5px;
+    margin-top: 0px;
+  }
+  .navbar-brand {
+    margin-bottom: 28px;
+  }
+  .navbar-toggler {
+    margin-bottom: 28px;
+  }
+  .navbar-nav {
+    row-gap: 18px;
+    display: block-inline;
+    padding-top: 25px;
+    margin-bottom: 0px !important;
+  }
+
+  nav .nav-btn {
+    margin-left: 0px;
+    padding: 7px 25px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+  }
+  nav .nav-btn:hover {
+    color: #ffffff;
+    background: transparent;
+    border-color: #ffffff;
+  }
+  .navbar-toggler {
+    color: #ffffff !important;
+    font-size: 29.5px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  /* ==================================================================================
+              Bannar responsive part End 
+================================================================================== */
+  #bannar {
+    background: #1c1e53;
+    padding: 113px 0px;
+  }
+  .responsive-bannar-button-two:hover .responsive-btn-arrow {
+    opacity: 0 !important;
+  }
+  .bannar-responsive-h-one-heading {
+    font-size: 31px;
+    line-height: 43px;
+    width: auto;
+  }
+  #bannar .main-pragrapg {
+    font: 16px;
+    line-height: 25px;
+    width: auto;
+  }
+  .responsive-bannar-main-btn {
+    padding: 7px 22px;
+  }
+  .responsive-bannar-main-btn:hover {
+    background: #fcd980 !important;
+    color: #000000 !important;
+    border-color: #fcd980 !important;
+  }
+  .responsive-bannar-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .responsive-bannar-img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 80px;
+  }
+
+  /* ==================================================================================
+              Bannar responsive part start 
 ================================================================================== */
 
   /* ==================================================================================
-              Navbar responsive part End 
+              Work responsive part Start 
+================================================================================== */
+  .responsive-work-left-heading {
+    font-size: 32px;
+    line-height: 30px;
+    width: auto;
+  }
+  .responsive-work-left-paragraph {
+    width: auto !important;
+    line-height: 20px;
+    font-size: 14.5px;
+  }
+  .responsive-work-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .responsive-work-btn-arrow {
+    opacity: 0;
+  }
+  .work-right {
+    text-align: center;
+    justify-content: center;
+    margin: 130px 0 0;
+  }
+  .work-right-elm {
+    /* text-align: center;
+    margin: 0 auto; */
+  }
+  .work-right-elm .work-right-pragraph {
+    width: auto !important;
+  }
+
+  .work-right-elm img {
+    width: 19%;
+  }
+  .responsive-work-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  /* ==================================================================================
+              Work responsive part end 
+================================================================================== */
+  /* ==================================================================================
+            Project responsive part start 
+================================================================================== */
+  .project-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .project-btn:hover .porject-icon {
+    opacity: 0;
+  }
+  .overlay img {
+    width: 100%;
+  }
+  .web-design img {
+    width: 100%;
+  }
+  .overlay {
+    position: relative;
+  }
+  .overlay-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-heading {
+    width: auto;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .overlay-text {
+    padding-top: 215px;
+    padding-left: 41px;
+  }
+  .overlay-pragraph {
+    width: auto;
+    padding: 9px 0 8px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .web-design-overlay-one {
+    height: 100%;
+    opacity: 1;
+  }
+  .web-design-two {
+    position: relative;
+  }
+  .web-design-overlay-two {
+    bottom: 0%;
+  }
+  .web-design-one {
+    margin-top: 70px;
+    margin-bottom: 63px;
+  }
+  .web-design-overlay-one .wed-overlay-elm {
+    padding: 250px 41px 0px;
+  }
+  .web-design-overlay-two .wed-overlay-elm-two {
+    padding-top: 250px;
+    padding-left: 41px;
+  }
+  #project {
+    padding: 128px 0 85px;
+  }
+  .overlay-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  /*=================================================================================
+              Project responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Feature responsive part start 
+================================================================================== */
+
+  .feature-heading-one {
+    width: auto !important;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .feature-card {
+    text-align: center;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  .feature-child-card-elm .feature-img {
+    width: 13.5% !important;
+  }
+  .feature-card-heading {
+    text-align: start;
+  }
+  #feature .feature-card-pragraph {
+    width: auto;
+    text-align: start;
+  }
+  #feature {
+    padding-bottom: 60px;
+  }
+  /* ==================================================================================
+              Feature responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            client responsive part start 
+================================================================================== */
+  .client-heading-one {
+    width: auto;
+    font-size: 19px !important;
+    line-height: 30px;
+  }
+  #client .client-pragraph {
+    width: auto;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+  .client-heading-two {
+    width: auto !important;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 25px;
+  }
+  .client-detais {
+    display: flex;
+    justify-content: center;
+  }
+  #client .client-detais img {
+    width: 19%;
+  }
+
+  /* ==================================================================================
+              client responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            FAQ responsive part start 
+================================================================================== */
+  .client-heading-one {
+    font-size: 21px;
+  }
+
+  .faq-btn {
+    padding: 4px 0px 100px;
+  }
+  .faq-btn:hover .faq-btn-arrow {
+    opacity: 0;
+  }
+  #faq .accordion-item {
+  }
+
+  #faq .accordion-item span {
+    padding-right: 18px;
+    color: #2405f2;
+  }
+  .accordion-button {
+    font-size: 16px !important;
+    line-height: 20px !important;
+  }
+  .accordion-button {
+    display: flex;
+    align-items: start;
+  }
+  #faq .accordion-item .accordion-body {
+    padding-left: 53px;
+    /* padding-bottom: 46px; */
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  /*=================================================================================
+              FAQ responsive part End 
+================================================================================== */
+  /* ==================================================================================
+             Building responsive part start 
+================================================================================== */
+
+  .building-img {
+    width: 100% !important;
+    height: 100%;
+  }
+  #building .bulding-overlay-elm {
+    position: relative;
+
+    height: 100%;
+  }
+  #building .bulding-overlay-elm .bulding-overlay {
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(28, 30, 83, 0.5);
+    transition: all linear 0.4s;
+  }
+  #building .bulding-overlay {
+    padding: 327px 38px 0px;
+  }
+  #building .building-overlay-heading {
+    color: #ffffff;
+    font-weight: 600;
+    width: auto;
+    font-size: 31px;
+    line-height: 39px;
+  }
+  #building .bulding-overlay-pragraph {
+    width: auto;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  #building .inquiry {
+    padding: 87px 37px 48px;
+    width: auto;
+    background: #1c1e53;
+  }
+  #building .inquiry-heading {
+    width: auto;
+    font-size: 32px;
+  }
+  #building .inquiry-pragraph {
+    width: auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .inuser,
+  .inemail,
+  .inname {
+    padding: 11px;
+  }
+  .form-control {
+    font-size: 15px;
+  }
+  .in-btn {
+    text-align: center;
+  }
+  .inquiry-btn {
+    padding: 8px 26px;
+  }
+  .inquiry-btn-two {
+    margin-left: 14px;
+    display: block;
+    text-align: center;
+  }
+  .inquiry-btn-two:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  .inquiry-btn:hover {
+    color: #282938;
+    border-color: #fcd980;
+    background: #fcd980;
+  }
+  .inquiry-btn-two {
+    color: #ffffff !important;
+  }
+  /* ==================================================================================
+               Building responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Blog responsive part start 
+================================================================================== */
+  #blog .blog-heading {
+    font-size: 39px;
+  }
+  #blog .card-text {
+    width: auto;
+    padding-top: 8px;
+  }
+  .card {
+    margin-bottom: 100px;
+  }
+  .card:nth-child(3) {
+    margin-bottom: 0;
+  }
+  #blog {
+    padding: 85px 0 37px;
+  }
+  #blog .card:hover .work-btn-arrow {
+    opacity: 0;
+  }
+
+  /* ==================================================================================
+              Blog responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Footer responsive part start 
+================================================================================== */
+
+  #footer .footer-pragraph {
+    width: auto;
+  }
+  .footer-right-heading {
+    margin: 10px 0 0;
+  }
+  #footer .footer-right-pragraph {
+    width: 399px;
+  }
+  #footer .box {
+    height: auto;
+  }
+  #footer .box .div-box-one .footer-heading-box-one {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  #footer .box .div-box-one .footer-contact-box-one {
+    font-size: 13px;
+  }
+  #footer .box .div-box-two .footer-contact-box-two {
+    font-size: 10px;
+
+    line-height: 0px;
+  }
+  #footer .box {
+    padding: 23px 73px;
+  }
+  #footer-two {
+    padding: 103px 0 40px;
+  }
+  #footer-two .footer-elm {
+    display: block;
+  }
+  #footer-two .footer-nav-elm {
+    gap: 0px;
+  }
+  #footer-two .footer-nav-elm li a {
+    font-size: 12px;
+  }
+  #footer-two .footer-nav-elm {
+    justify-content: space-around;
+  }
+  #footer-two .footer-two-pragarph {
+    text-align: center;
+    padding-bottom: 9px;
+  }
+  /* ==================================================================================
+              Footer responsive part End 
 ================================================================================== */
 }
+/* ==================================================================================
+           small device resopnsive  end
+================================================================================== */
+/* ==================================================================================
+           Medium device resopnsive start
+================================================================================== */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* ==================================================================================
+              Navbar responsive part start 
+================================================================================== */
+
+  .nav-elm-responsive {
+    background-color: rgba(141, 61, 36, 0.879);
+
+    border-radius: 12.5px;
+    margin-top: 0px;
+  }
+  .navbar-brand {
+    margin-bottom: 28px;
+  }
+  .navbar-toggler {
+    margin-bottom: 28px;
+  }
+  .navbar-collapse .navbar-nav {
+    row-gap: 18px;
+    display: flex !important;
+    flex-direction: row !important;
+    padding-top: 0px;
+    margin: 0 !important;
+  }
+  nav .nav-btn {
+    margin-bottom: 0px !important;
+  }
+  .navbar-collapse {
+    display: flex;
+    align-items: center;
+  }
+  /* .nav-elm-responsive {
+    display: flex;
+  } */
+  nav .nav-btn {
+    margin-left: 0px;
+    padding: 7px 25px;
+    margin-top: 13px !important;
+    margin-bottom: 13px !important;
+    margin-left: 20px !important;
+  }
+
+  /* .nav-item {
+    padding: 15px 24px;
+  } */
+  nav .nav-btn:hover {
+    color: #ffffff;
+    background: transparent;
+    border-color: #ffffff;
+  }
+  .navbar-toggler {
+    color: #ffffff !important;
+    font-size: 29.5px;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .navbar-nav {
+    padding: 0px 20px;
+  }
+
+  /* ==================================================================================
+              Bannar responsive part End 
+================================================================================== */
+  #bannar {
+    background: #1c1e53;
+    padding: 113px 0px;
+  }
+  .responsive-bannar-button-two:hover .responsive-btn-arrow {
+    opacity: 0 !important;
+  }
+  .bannar-responsive-h-one-heading {
+    font-size: 32px;
+    line-height: 43px;
+    width: 432px;
+  }
+  #bannar .main-pragrapg {
+    font: 16px;
+    line-height: 25px;
+    width: 432px;
+  }
+  .responsive-bannar-main-btn {
+    padding: 7px 22px;
+  }
+  .responsive-bannar-main-btn:hover {
+    background: #fcd980 !important;
+    color: #000000 !important;
+    border-color: #fcd980 !important;
+  }
+  .responsive-bannar-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .responsive-bannar-img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 80px;
+  }
+
+  /* ==================================================================================
+              Bannar responsive part start 
+================================================================================== */
+
+  /* ==================================================================================
+              Work responsive part Start 
+================================================================================== */
+  .responsive-work-left-heading {
+    font-size: 32px;
+    line-height: 30px;
+    width: auto;
+  }
+  .responsive-work-left-paragraph {
+    width: 371px !important;
+    line-height: 20px;
+    font-size: 14.5px;
+  }
+  .responsive-work-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .responsive-work-btn-arrow {
+    opacity: 0;
+  }
+  .work-right {
+    text-align: start;
+  }
+  .work-right-elm {
+    /* text-align: center;
+    margin: 0 auto; */
+  }
+  .work-right-elm .work-right-pragraph {
+    width: auto !important;
+  }
+
+  .work-right-elm img {
+    width: 19%;
+  }
+  .responsive-work-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  .work-right {
+    margin-top: 64px;
+  }
+  /* ==================================================================================
+              Work responsive part end 
+================================================================================== */
+  /* ==================================================================================
+            Project responsive part start 
+================================================================================== */
+  .project-heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .project-btn:hover .porject-icon {
+    opacity: 0;
+  }
+  .overlay img {
+    width: 100%;
+  }
+  .web-design img {
+    width: 100%;
+  }
+  .overlay {
+    position: relative;
+  }
+  .overlay-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay-heading {
+    width: auto;
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .overlay-text {
+    padding-top: 340px;
+    padding-left: 41px;
+  }
+  .overlay-pragraph {
+    width: auto;
+    padding: 9px 0 8px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .web-design-overlay-one {
+    height: 100%;
+    opacity: 1;
+  }
+  .web-design-two {
+    position: relative;
+  }
+  .web-design-overlay-two {
+    bottom: 0%;
+  }
+  .web-design-one {
+    margin-top: 70px;
+    margin-bottom: 63px;
+  }
+  .web-design-overlay-one .wed-overlay-elm {
+    padding: 340px 41px 0px;
+  }
+  .web-design-overlay-two .wed-overlay-elm-two {
+    padding-top: 340px;
+    padding-left: 41px;
+  }
+  #project {
+    padding: 128px 0 85px;
+  }
+  .overlay-btn:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  /*=================================================================================
+              Project responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Feature responsive part start 
+================================================================================== */
+
+  .feature-heading-one {
+    width: 430px !important;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .feature-card {
+    flex-direction: row;
+  }
+  #feature .feature-card {
+    gap: 0px;
+  }
+  .feature-child-card-elm {
+    display: inline-block;
+  }
+  .feature-child-card-elm .feature-img {
+    width: 7.5% !important;
+  }
+  .feature-card-heading {
+    text-align: start;
+  }
+  #feature .feature-card-pragraph {
+    width: auto;
+    text-align: start;
+  }
+  #feature {
+    padding-bottom: 60px;
+  }
+  #feature .feature-child-card-elm {
+    padding: 48px 15px 48px;
+    width: 326px;
+    margin: 10px 10px;
+    background-color: #ffffff;
+  }
+  /* ==================================================================================
+              Feature responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            client responsive part start 
+================================================================================== */
+  .client-heading-one {
+    width: auto;
+    font-size: 25px !important;
+    line-height: 30px;
+  }
+  #client .client-pragraph {
+    width: auto;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+  .client-heading-two {
+    width: auto !important;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 60px;
+  }
+  .client-detais {
+    display: flex;
+    justify-content: center;
+  }
+  #client .client-detais img {
+    width: 10% !important;
+  }
+
+  /* ==================================================================================
+              client responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            FAQ responsive part start 
+================================================================================== */
+  .client-heading-one {
+    font-size: 21px;
+  }
+
+  .faq-btn {
+    padding: 4px 0px 100px;
+  }
+  .faq-btn:hover .faq-btn-arrow {
+    opacity: 0;
+  }
+  #faq .accordion-item {
+  }
+
+  #faq .accordion-item span {
+    padding-right: 18px;
+    color: #2405f2;
+  }
+  .accordion-button {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+  .accordion-button {
+    display: flex;
+    align-items: start;
+  }
+  #faq .accordion-item .accordion-body {
+    padding-left: 53px;
+    /* padding-bottom: 46px; */
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  /*=================================================================================
+              FAQ responsive part End 
+================================================================================== */
+  /* ==================================================================================
+             Building responsive part start 
+================================================================================== */
+
+  .building-img {
+    width: 100% !important;
+    height: 100%;
+  }
+  #building .bulding-overlay-elm {
+    position: relative;
+
+    height: 100%;
+  }
+  #building .bulding-overlay-elm .bulding-overlay {
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(28, 30, 83, 0.5);
+    transition: all linear 0.4s;
+  }
+  #building .bulding-overlay {
+    padding: 455px 38px 0px;
+  }
+  #building .building-overlay-heading {
+    color: #ffffff;
+    font-weight: 600;
+
+    font-size: 32px;
+    line-height: 39px;
+    width: 350px;
+  }
+  #building .bulding-overlay-pragraph {
+    width: 350px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  #building .inquiry {
+    padding: 87px 37px 48px;
+    width: auto;
+    background: #1c1e53;
+  }
+  #building .inquiry-heading {
+    width: auto;
+    font-size: 32px;
+  }
+  #building .inquiry-pragraph {
+    width: auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .inuser,
+  .inemail,
+  .inname {
+    padding: 11px;
+  }
+  .form-control {
+    font-size: 15px;
+  }
+  .in-btn {
+    text-align: center;
+  }
+  .inquiry-btn {
+    padding: 8px 26px;
+  }
+  .inquiry-btn-two {
+    margin-left: 14px;
+    display: block;
+    text-align: center;
+  }
+  .inquiry-btn-two:hover .work-btn-arrow {
+    opacity: 0;
+  }
+  .inquiry-btn:hover {
+    color: #282938;
+    border-color: #fcd980;
+    background: #fcd980;
+  }
+  .inquiry-btn-two {
+    color: #ffffff !important;
+  }
+  /* ==================================================================================
+               Building responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Blog responsive part start 
+================================================================================== */
+  #blog .blog-heading {
+    font-size: 39px;
+  }
+  #blog .card-text {
+    width: auto;
+    padding-top: 8px;
+  }
+  .card {
+    margin-bottom: 100px;
+  }
+  .card:nth-child(3) {
+    margin-bottom: 0;
+  }
+  #blog {
+    padding: 85px 0 37px;
+  }
+  #blog .card:hover .work-btn-arrow {
+    opacity: 0;
+  }
+
+  /* ==================================================================================
+              Blog responsive part End 
+================================================================================== */
+  /* ==================================================================================
+            Footer responsive part start 
+================================================================================== */
+
+  #footer .footer-pragraph {
+    width: 320px;
+  }
+  .footer-right-heading {
+    margin: 0px 0 0;
+  }
+  #footer .footer-right-pragraph {
+    width: 399px;
+  }
+  #footer .box {
+    height: auto;
+  }
+  #footer .box .div-box-one .footer-heading-box-one {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  #footer .box .div-box-one .footer-contact-box-one {
+    font-size: 13px;
+  }
+  #footer .box .div-box-two .footer-contact-box-two {
+    font-size: 10px;
+
+    line-height: 0px;
+  }
+  #footer .box {
+    padding: 23px 73px;
+  }
+  #footer-two {
+    padding: 103px 0 40px;
+  }
+  #footer-two .footer-elm {
+    display: block;
+  }
+  #footer-two .footer-nav-elm {
+    gap: 0px;
+  }
+  #footer-two .footer-nav-elm li a {
+    font-size: 12px;
+  }
+  #footer-two .footer-nav-elm {
+    justify-content: space-around;
+  }
+  #footer-two .footer-two-pragarph {
+    text-align: center;
+    padding-bottom: 9px;
+  }
+  .row-max {
+    display: flex;
+    align-items: start;
+  }
+  .footerImg {
+    margin-top: 17px;
+  }
+  #footer .box {
+    padding: 11px 57px;
+    /* margin-top: 10px; */
+  }
+  #footer-two {
+    padding: 56px 0 40px;
+  }
+  #footer-two .footer-two-pragarph {
+    text-align: center;
+    padding-bottom: 13px;
+  }
+  .footer-nav-elm {
+    display: flex ;
+    justify-content: center !important;
+    /* align-items: end !important; */
+    margin: 0 auto;
+    gap: 56px !important;
+  }
+  #footer-two .footer-nav-elm li a {
+	font-size: 15px;
+}
+  /* ==================================================================================
+              Footer responsive part End 
+================================================================================== */
+}
+/* ==================================================================================
+           Medium device resopnsive  end
+================================================================================== */

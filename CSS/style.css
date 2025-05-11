@@ -363,6 +363,9 @@ nav .nav-btn {
   background-color: #f4f6fc;
   padding-bottom: 128px;
 }
+.feature-card {
+  
+}
 #feature .feature-child-card-elm {
   padding: 58px 48px 48px;
   background-color: #ffffff;
@@ -396,12 +399,18 @@ nav .nav-btn {
 }
 #feature .feature-card {
   display: flex;
-
-  column-gap: 32px;
+ column-gap: 20px;
+ row-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 35px;
 }
-#feature .row .feature-card:nth-child(2) {
+.feature-child-card-elm{
+  display: inline-block;
+}
+/* #feature .row .feature-card:nth-child(2) {
   margin-top: 24px;
-}
+} */
 /* .feature-card-two {
 } */
 
@@ -693,6 +702,9 @@ nav .nav-btn {
   left: 0;
   top: 138.5%;
   transform: translateY(-100%);
+}
+.row-max{
+  display: flex;
 }
 #footer .box .div-box-one .footer-heading-box-one {
   padding-bottom: 4px;
