@@ -407,6 +407,12 @@
   /* ==================================================================================
             Footer responsive part start 
 ================================================================================== */
+.row-max{
+  display: block;
+}
+#footer .footer-right-pragraph {
+	width: auto !important;
+}
   #footer .footer-pragraph {
     width: auto;
   }
@@ -870,7 +876,12 @@
   /* ==================================================================================
             Footer responsive part start 
 ================================================================================== */
-
+.row-max{
+  display: block;
+}
+#footer .footer-right-pragraph {
+	width: auto !important;
+}
   #footer .footer-pragraph {
     width: auto;
   }
